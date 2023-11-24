@@ -1,0 +1,66 @@
+
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  /* Set background and text colors */
+  body {
+    background-color: #1f2532; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+  }  
+  /* Center content */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  } 
+  /* Heading styles */
+  h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+  } 
+  h2 {
+    color: #cccccc; 
+    margin-bottom: 10px;
+    font-size: 25px;
+  } 
+  h3 {
+    color: #ffffff; 
+    margin-bottom: 5px;
+    padding: 15px;
+    font-size: 22px;
+  } 
+  /* Input and button styles */
+  input[type="number"] {
+    padding: 12px;
+    border-radius: 5px;
+    width: 25%;
+    border: 1px solid #cccccc; 
+    background-color: #273144; 
+    color: #ffffff; 
+    text-align: center;
+    margin: 10px auto;
+    display: block;
+  }
+  button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3461a4; 
+    color: #ffffff; 
+    cursor: pointer;
+    font-size: 18px;
+  }
+  button:hover {
+    background-color: #1e416e; 
+  }
+  .button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
