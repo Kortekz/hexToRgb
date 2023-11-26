@@ -24,6 +24,7 @@
   h1 {
     margin-bottom: 20px;
     font-size: 30px;
+    padding-bottom: 50px;
   } 
   h2 {
     color: #cccccc; 
@@ -37,8 +38,8 @@
     font-size: 22px;
   } 
   /* Input and button styles */
-  input[type="number"] {
-    padding: 12px;
+  input[type="text"] {
+    padding: 15px;
     border-radius: 5px;
     width: 25%;
     border: 1px solid #cccccc; 
@@ -47,6 +48,7 @@
     text-align: center;
     margin: 10px auto;
     display: block;
+    font-size: 18px;
   }
   button {
     padding: 10px 20px;
@@ -56,6 +58,7 @@
     color: #ffffff; 
     cursor: pointer;
     font-size: 18px;
+    text-transform: uppercase;
   }
   button:hover {
     background-color: #1e416e; 
