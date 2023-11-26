@@ -10,8 +10,9 @@ function hexToRgb() {
     // Function to convert HEX to RGB
     function hexToDec(hex) {
         return parseInt(hex, 16)
+        // Convert hexadecimal to decimal
     }
-    // Extracting R, G, B components without using substring
+    // Extracting R, G, B components 
     let red = hexToDec(hexValue.slice(1, 3))
     let green = hexToDec(hexValue.slice(3, 5))
     let blue = hexToDec(hexValue.slice(5, 7))
